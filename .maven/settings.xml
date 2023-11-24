@@ -2,13 +2,13 @@
     <servers>
         <server>
             <id>anypoint-exchange-v3</id>
-            <username>NaveenKumarC</username>
-            <password>AuroProMission@2022</password>
+            <username>${env.PLATFORM_USERNAME}</username>
+            <password>${env.PLATFORM_PASSWORD}</password>
         </server>
         <server>
             <id>cloudhub</id>
-            <username>NaveenKumarC</username>
-            <password>AuroProMission@2022</password>
+            <username>${env.PLATFORM_USERNAME}</username>
+            <password>${env.PLATFORM_PASSWORD}</password>
         </server>
     </servers>
 </settings>

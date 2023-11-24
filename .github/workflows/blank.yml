@@ -62,6 +62,7 @@ jobs:
         PASSWORD: ${{ secrets.anypoint_platform_password }}
         ORGID : ${{ secrets.anypoint_client_id }}
         ORGSECRET : ${{ secrets.anypoint_client_secret }}
+        BUS_GROUP_ID : ${{secrets.BUS_GROUP_ID }}
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy \
@@ -69,4 +70,6 @@ jobs:
          -Danypoint.username="$USERNAME" \
          -Danypoint.password="$PASSWORD" \
          -Danypoint.clientid="$ORGID" \
-         -Danypoint.clientsecret="$ORGSECRET"
+         -Danypoint.clientsecret="$ORGSECRET" \
+         -DBUS_GROUP_ID="$BUS_GROUP_ID"
+         

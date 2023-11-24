@@ -68,5 +68,5 @@ jobs:
          -Dmule.artifact=$artifactName \
          -Danypoint.username="$USERNAME" \
          -Danypoint.password="$PASSWORD" \
-         -DClientID="$ORGID" \
-         -DClientSecret="$ORGSECRET"
+         -Danypoint.clientid="$ORGID" \
+         -Danypoint.clientsecret="$ORGSECRET"

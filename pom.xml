@@ -43,6 +43,11 @@
                         <region>us-east-2</region>
                         <workers>1</workers>
                         <objectStoreV2>true</objectStoreV2>
+                        <businessGroup>UPPM</businessGroup>
+                        <properties>
+                            <anypoint.platform.client_id>58422bd82e5f4ca7978e0661d6597ee6</anypoint.platform.client_id>
+                            <anypoint.platform.client_secret>0d4cCDB6C09a4610869e1Bfd72fcC84f</anypoint.platform.client_secret>
+                        </properties>
                     </cloudHubDeployment>
                 </configuration>
             </plugin>

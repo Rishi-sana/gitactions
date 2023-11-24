@@ -1,0 +1,14 @@
+<settings>
+    <servers>
+        <server>
+            <id>anypoint-exchange-v3</id>
+            <username>NaveenKumarC</username>
+            <password>AuroProMission@2022</password>
+        </server>
+        <server>
+            <id>cloudhub</id>
+            <username>NaveenKumarC</username>
+            <password>AuroProMission@2022</password>
+        </server>
+    </servers>
+</settings>
